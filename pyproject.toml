@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "supplychain-py"
+version = "0.1.0"
+description = ""
+authors = ["Yuhui Shi <yuhui@convect.ai>"]
+readme = "README.md"
+packages = [{include = "supplychain_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mip = "^1.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
